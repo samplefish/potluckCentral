@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>fish Party - Already joined</title>
+	<title>Huh.. Potluck Already joined</title>
 </head>
 
 <body>
