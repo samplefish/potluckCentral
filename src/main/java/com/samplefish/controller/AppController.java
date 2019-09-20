@@ -26,7 +26,7 @@ public class AppController {
 		return "admin";
 	}
 	
-	
+	//TODO: my profile
 	
 	
 }
