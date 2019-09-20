@@ -16,7 +16,7 @@ public class ItemDaoImpl implements ItemDao {
 	@Override
 	public void saveItem(Item item) {
 		Session session = sessionFactory.getCurrentSession();
-	
+		
 		session.saveOrUpdate(item);
 
 	}
