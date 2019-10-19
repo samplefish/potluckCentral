@@ -19,6 +19,7 @@
 	{
 		margin: 0;
 		padding: 0;
+		color: #ffffff;
 	}
 	
 	p, ol, ul
@@ -289,7 +290,7 @@
 	{
 		position: relative;
 		padding: 0em 0em 7em 0em;
-		background: #111111 url(images/foodcrop.jpg) no-repeat center;
+		background: #111111 url(images/eating.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -319,7 +320,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: rgba(0,0,0,1);
+		color: rgba(255,255,255,1);
 	}
 
 /*********************************************************************************/
@@ -352,7 +353,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 0.8em;
-		color: rgba(0,0,0,0.80);
+		color: rgba(255,255,255,0.80);
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span

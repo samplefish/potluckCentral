@@ -11,7 +11,7 @@
 		font-family: 'Didact Gothic', sans-serif;
 		font-size: 12pt;
 		font-weight: 200;
-		color: #000000;
+		color: #ffffff;
 	}
 	
 	
@@ -171,7 +171,7 @@
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 1em;
-		color: #000;
+		color: #fff;
 	}
 	
 	.button-alt
@@ -267,7 +267,7 @@
 	.title .byline
 	{
 		font-size: 1.3em;
-		color: rgba(0,0,0,0.60);
+		color: rgba(255,255,255,0.60);
 	}
 
 /*********************************************************************************/
@@ -289,7 +289,7 @@
 	{
 		position: relative;
 		padding: 5em 0em 7em 0em;
-		background: #111111 url(images/foodcrop.jpg) no-repeat center;
+		background: #111111 url(images/eating.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -319,7 +319,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: rgba(0,0,0,1);
+		color: rgba(255,255,255,1);
 	}
 
 /*********************************************************************************/
@@ -352,7 +352,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 0.8em;
-		color: rgba(0,0,0,0.80);
+		color: rgba(255,255,255,0.80);
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -361,9 +361,9 @@
 	
 	#menu .active a
 	{
-		border: 2px solid rgba(0,0,0,1);
+		border: 2px solid rgba(255,255,255,1);
 		border-radius: 6px;
-		color: rgba(0,0,0,1);
+		color: rgba(255,255,255,1);
 	}
 	
 	#menu .icon
@@ -394,10 +394,11 @@
 	{
 		margin-top: 2em;
 		padding: 1.40em 3em;
-		border: 2px solid rgba(0,0,0,1);
+		border: 2px solid rgba(255,255,255,1);
 		border-radius: 6px;
 		font-weight: 700;
 		font-size: 1em;
+		background-color: rgba(255,255,255,.3)
 		
 	}
 
