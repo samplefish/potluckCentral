@@ -58,7 +58,7 @@
 	<div>
 		
 		<div id="loginbox"
-			class="container-login100" style="background-image: url('resources/login/images/food.jpg');">
+			class="container-login100" style="background-image: url('resources/login/images/potluck.jpg');">
 			
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 
