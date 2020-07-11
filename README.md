@@ -1,3 +1,5 @@
+http://potluck-env.eba-ginfq379.us-east-1.elasticbeanstalk.com/
+
 # potluckCentral
 Potluck Central is a Java Spring MVC Web Application that allows users to plan potlucks with other users.
 
