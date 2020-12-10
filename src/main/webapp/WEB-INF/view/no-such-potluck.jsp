@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>fish Party - No such potluck</title>
+	<title>No such potluck</title>
 </head>
 
 <body>

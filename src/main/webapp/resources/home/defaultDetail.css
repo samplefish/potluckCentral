@@ -292,6 +292,7 @@
 		padding: 0em 0em 7em 0em;
 		background: #111111 url(images/eating.jpg) no-repeat center;
 		background-size: cover;
+		
 	}
 
 	#header
@@ -515,3 +516,16 @@
 		color: rgba(0,0,0,.5);
 	}
 
+
+	/* lets win */
+	
+	#potluck-desc
+	{
+		padding: 20px;
+		color: #fff;
+	}
+	
+	#potluck-desc p
+	{
+		color: #fff;
+	}
