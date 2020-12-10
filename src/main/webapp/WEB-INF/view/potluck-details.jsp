@@ -57,18 +57,20 @@
 						<div class="wrap-table100">
 							<span class="best-title p-b-49">${potluck.name}</span>
 	
-		<div id="wrapper">
+		<div id="potluck-desc">
 			
 			
-				<h3>Host: ${potluck.owner.userName}</h3>
+			
+				<h3 style="color: #fff;">Host: ${potluck.owner.userName}</h3>
 				<br>
-				Date: ${potluck.date}
+				<p style="color: #fff;">Date: ${potluck.date}</p>
 				<br>
-				Time: ${potluck.time}
+				<p style="color: #fff;">Time: ${potluck.time}</p>
 				<br>
-				Location: ${potluck.location}
+				<p style="color: #fff;">Location: ${potluck.location}</p>
 				<br>
-				Description: ${potluck.description}
+				<p style="color: #fff;">Description: ${potluck.description}</p>
+				<br>
 			
 			
 			

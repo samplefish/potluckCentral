@@ -2,6 +2,8 @@ package com.samplefish.dao;
 
 import java.util.List;
 
+import javax.persistence.NoResultException;
+
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -77,8 +79,13 @@ public class PotluckDaoImpl implements PotluckDao {
 		
 		Query<Potluck> query = session.createQuery("from Potluck where inviteCode=:inviteCode", Potluck.class);
 		query.setParameter("inviteCode", invite);
-		
-		return query.getSingleResult();
+		try {
+			return query.getSingleResult();
+		}
+		catch(NoResultException e){
+			return null;
+		}
+		//return query.getSingleResult();
 	}
 
 }
